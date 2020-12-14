@@ -575,7 +575,7 @@ UI.parseCommand = function(chatInput) {
 };
 
 
-UI.addChatLine = function(msg, text, msgType) {
+UI.addChatLine = function(msg, text='hi im B', msgType) {
     if (!ignoredPlayerIdSet[msg.id]) {
         chatLineId++;
         if (0 == msgType)
