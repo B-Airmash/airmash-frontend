@@ -578,7 +578,7 @@ UI.parseCommand = function(chatInput) {
 UI.addChatLine = function(msg, text, msgType) {
     if (!ignoredPlayerIdSet[msg.id]) {
         chatLineId++;
-       text= ProfanityFilter(textToFilter);
+       text= ProfanityFilter(text);
         if (0 == msgType)
             var o = '<div id="chat-' + chatLineId + '" class="line"><span class="playersel" data-playerid="' + msg.id + '"><span class="flag small flag-' + msg.flag + '" title="' + getFlagLabel(msg.flag) + '"></span><span class="nick">' + UI.escapeHTML(msg.name) + '</span></span><span class="text">' + UI.escapeHTML(text, true) + "</span></div>";
         else if (1 == msgType || 2 == msgType) {
