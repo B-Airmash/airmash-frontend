@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital@1&display=swap');
 body,
 div,
 form,
@@ -29,23 +30,23 @@ table {
 }
 
 @font-face {
-    font-family: 'MontserratWeb';
+    font-family: 'B612';
     font-style: normal;
     font-weight: 400;
     src: url("montserrat-semibold.woff2") format('woff2'), url("montserrat-semibold.woff") format('woff')
 }
 
 @font-face {
-    font-family: 'MontserratWeb';
+    font-family: 'B612';
     font-style: normal;
     font-weight: 700;
     src: url("montserrat-bold.woff2") format('woff2'), url("montserrat-bold.woff") format('woff')
 }
 
 @font-face {
-    font-family: 'MontserratWeb';
+    font-family: 'B612';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     src: url("montserrat-extrabold.woff2") format('woff2'), url("montserrat-extrabold.woff") format('woff')
 }
 
